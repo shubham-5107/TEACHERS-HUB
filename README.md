@@ -16,17 +16,6 @@ The project demonstrates the practical use of Python in creating useful and user
 1. PYTHON
 2. Libraries (random, time, subprocess, tkinter)
 
-# PROJECT STRUCTURE
-Teacher's-Hub/
-|- README.md
-|-Testpapers/
-|- Images/
-|-Database/
-|    |-Frequency.txt
-|    |-pyq.database.py
-|-main.py
-|-cache.py
-
 # Login id and password:
 User id: Shubham
 Password: abcd
