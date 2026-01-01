@@ -16,7 +16,7 @@ The project demonstrates the practical use of Python in creating useful and user
 1. PYTHON
 2. Libraries (random, time, subprocess, tkinter)
 
-# Login id and password:
+# Login id and password for inteface:
 User id: Shubham
 Password: abcd
 
