@@ -130,7 +130,7 @@ def start_page_interface():
                         if retrived_inp_marks==database_marks:
                             if retrived_inp_question_type==database_question_type:
                                 if retrived_inp_question_statement in dictionary[database_marks][database_question_type]:
-                                    Label(pyq_database_updater_interface,text='Question already exists in the database....').place(x= 900,y=500)
+                                    Label(pyq_database_generator_interface_window,text='Question already exists in the database....').place(x= 900,y=500)
                                     
                                     
                                     break
@@ -778,10 +778,7 @@ def start_page_interface():
 
             if inp_user_id== 'Shubham'and 'abcd':
                 home_page_interface_retriver()
-            elif inp_user_id== 'Zaid'and 'abcd':
-                home_page_interface_retriver()
-            elif inp_user_id== 'Shobhit'and 'abcd':
-                home_page_interface_retriver()
+                
             else:
                 Label(
                     login_interface_window,
@@ -937,5 +934,4 @@ def start_page_interface():
     start_page_interface_window.mainloop()
 
 if __name__ == '__main__':
-    #sql_database_generator()
     start_page_interface()
